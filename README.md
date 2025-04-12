@@ -1,7 +1,7 @@
 ---
 title: README
 created: '2025-04-12T18:17:25.923Z'
-modified: '2025-04-12T21:27:57.662Z'
+modified: '2025-04-12T21:34:01.711Z'
 ---
 
 # Project-IDEAS
@@ -43,8 +43,8 @@ while(true){
 It simply keeps printing "hey", but if i edit the file, and change "hey" to "bye" and save. The running code will now start printing "bye", without having to recompile".
 
 
-## Hermitcrat Video Timeline
-(Video and text processing, semantic similairty, YouTube API, neural models)
+## Hermitcrat Video Timeline - **KNZY?**
+(Video, audio, and text processing, semantic similairty, YouTube API, neural models)
 
 Hermitcraft is a popular minecraft server with 25 YouTubers, all creating content and storylines from within the server. Rewatching hermitcraft after a season is done, can be difficult, due to different upload schedules and video length of each creator. 
 
