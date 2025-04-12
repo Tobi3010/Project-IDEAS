@@ -1,7 +1,7 @@
 ---
 title: README
 created: '2025-04-12T18:17:25.923Z'
-modified: '2025-04-12T21:20:00.348Z'
+modified: '2025-04-12T21:27:57.662Z'
 ---
 
 # Project-IDEAS
@@ -31,6 +31,17 @@ Some kind of game emulator, playstation 3, nintendo 3DS, gameboy or something el
 
 Train a AI model from the bottom untill it is able to be effective in Pokemon battles. Pokemon showdown has complete logs of battles, which can be used for training.
 
+## Program editing at runtime - **KNZY?**
+Make a programming language(or editor?) where it is possible to edit the code at runtime. Example: the code below is currently running:
+```
+while(true){
+  str a = "hey"
+  print(a)
+}
+
+```
+It simply keeps printing "hey", but if i edit the file, and change "hey" to "bye" and save. The running code will now start printing "bye", without having to recompile".
+
 
 ## Hermitcrat Video Timeline
 (Video and text processing, semantic similairty, YouTube API, neural models)
@@ -44,17 +55,6 @@ The idea is to map all the videoes of all hermitcraft members on the timeline, b
 (C++, open-source, GUI, image processing)
 
 In digital art, artists often wanna translate their image to grayscale to show the values of their artpiece. Krita does not have a shortcut for this. The idea here is simply to implement a shortcut that turns the image gray, with possible settings for different grayscales like, grayscale with onlu pure black and white, grayscale with 3 or 5 scales, and just normal grayscale.
-
-## Program editing at runtime
-Make a programming language(or editor?) where it is possible to edit the code at runtime. Example: the code below is currently running:
-```
-while(true){
-  str a = "hey"
-  print(a)
-}
-
-```
-It simply keeps printing "hey", but if i edit the file, and change "hey" to "bye" and save. The running code will now start printing "bye", without having to recompile".
 
 
 ## 2D-raytracer 
