@@ -1,1 +1,57 @@
+---
+title: README
+created: '2025-04-12T18:17:25.923Z'
+modified: '2025-04-12T18:59:29.921Z'
+---
+
 # Project-IDEAS
+This repository is where i write down project ideas.
+
+
+## LEGO Piece Detector 
+(Computer vision, Databases, Deep learning)
+
+Program for detecting LEGO pieces and sets from an image, and uses the information to name the pieces and sets. Once the pieces or set is found, the informantion will be used, to make a list of other LEGO sets that can be made from the given pieces.
+The list will be ordered by how many pieces missing to build the set, from smallest to biggest.
+
+## Hermitcrat Video Timeline
+(Video and text processing, semantic similairty, YouTube API, neural models)
+
+Hermitcraft is a popular minecraft server with 25 YouTubers, all creating content and storylines from within the server. Rewatching hermitcraft after a season is done, can be difficult, due to different upload schedules and video length of each creator. 
+
+The idea is to map all the videoes of all hermitcraft members on the timeline, based on semantic similarity between sections of their videoes. Example: three content creators are all involved in the same storyline, and hold a minute meeting, the videoclip of the meeting will be in all three creators' videoes, so even though the video is in episode 5 for the first creator, episode 7 for the second, and episode 10 for the third, all videoes will be on the same place on the timeline. 
+
+
+## Krita grayscale short
+(C++, open-source, GUI, image processing)
+In digital art, artists often wanna translate their image to grayscale to show the values of their artpiece. Krita does not have a shortcut for this. The idea here is simply to implement a shortcut that turns the image gray, with possible settings for different grayscales like, grayscale with onlu pure black and white, grayscale with 3 or 5 scales, and just normal grayscale.
+
+## Colorscheme Editing - BEING WORKED ON
+(Image Processing, clustering, color-theory, (GUI))
+
+A program that can read the color scheme of a image, in different formats, and allow the user to edit the color scheme by rotation it around the colorwheel, and maybe even allow to go from one color scheme to another, from monocromatic to analogous, from complimentary to split-complimentaary, etc.
+
+<p align="center">
+  <img src="colorscheme.png" />
+</p>
+
+## Things To Implement
+- Colorwheel GUI (QT?)
+  - Translate RGB to HSV
+  - Colorwheel coordinates
+- Read & print colors from image onto colorwheel 
+  - Research color fresh holds, when do we diffenriate between colors?
+- Colorscheme detection
+  - Detect clusters of colors on colorwheel
+  - Make "pizza cut" for each cluster
+  - Placement of pizza cuts, determines color scheme (two cluster oposite eachother is complimentary, etc.)
+- Highlight colors from colorscheme
+  - If blue-orange split-complimentary colorscheme, clicking on orange pizza cut, highlights all orange colors on image,
+  clicking on blue pizza cut, highlights all blue colors.
+- Rotate colorscheme around colorwheel
+  - Image keeps colorscheme, but with different colors 
+  - Grayscale value must stay the same
+- Translation between similar colorschemes 
+  - Monochronomatic to analogous (and reverse)
+  - Complimentary to Split-complimentary to triad (and reverse)
+
