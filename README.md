@@ -1,18 +1,36 @@
 ---
 title: README
 created: '2025-04-12T18:17:25.923Z'
-modified: '2025-04-12T18:59:29.921Z'
+modified: '2025-04-12T21:20:00.348Z'
 ---
 
 # Project-IDEAS
 This repository is where i write down project ideas.
 
 
-## LEGO Piece Detector 
+## Cosplay detector - **KNZY?**
+(machine learning, computer vision, scrapping)
+
+Cosplayers will try to look like their favorite characters as much as possible, but will never be 100% accurate. This is due to them being real people, their own appearences, quality of the cosplay, and other factors, sometimes people even genderbend characters(women cosplaying fictional men or men cosplaying fictional women), but the core elements of the fictional character will still be there.
+The idea is to train a model on a long list of popular fictional characters, and use computer vision to accurately identify the core elements of a character from a cosplay, and tell what charater the cosplayer is cosplaying.
+
+## LEGO Piece Detector - **KNZY?**
 (Computer vision, Databases, Deep learning)
 
 Program for detecting LEGO pieces and sets from an image, and uses the information to name the pieces and sets. Once the pieces or set is found, the informantion will be used, to make a list of other LEGO sets that can be made from the given pieces.
 The list will be ordered by how many pieces missing to build the set, from smallest to biggest.
+
+## Emulator - **KNZY?**
+(operative systems, stuff i dont know about)
+
+
+Some kind of game emulator, playstation 3, nintendo 3DS, gameboy or something else.
+
+## Pokemon battle AI - **KNZY?**
+(machine learning, scrapping)
+
+Train a AI model from the bottom untill it is able to be effective in Pokemon battles. Pokemon showdown has complete logs of battles, which can be used for training.
+
 
 ## Hermitcrat Video Timeline
 (Video and text processing, semantic similairty, YouTube API, neural models)
@@ -24,9 +42,25 @@ The idea is to map all the videoes of all hermitcraft members on the timeline, b
 
 ## Krita grayscale short
 (C++, open-source, GUI, image processing)
+
 In digital art, artists often wanna translate their image to grayscale to show the values of their artpiece. Krita does not have a shortcut for this. The idea here is simply to implement a shortcut that turns the image gray, with possible settings for different grayscales like, grayscale with onlu pure black and white, grayscale with 3 or 5 scales, and just normal grayscale.
 
-## Colorscheme Editing - BEING WORKED ON
+## Program editing at runtime
+Make a programming language(or editor?) where it is possible to edit the code at runtime. Example: the code below is currently running:
+```
+while(true){
+  str a = "hey"
+  print(a)
+}
+
+```
+It simply keeps printing "hey", but if i edit the file, and change "hey" to "bye" and save. The running code will now start printing "bye", without having to recompile".
+
+
+## 2D-raytracer 
+Redo and improve my old 2d raytracer exam project from highscool.
+
+## Colorscheme Editing - IN PROGRESS
 (Image Processing, clustering, color-theory, (GUI))
 
 A program that can read the color scheme of a image, in different formats, and allow the user to edit the color scheme by rotation it around the colorwheel, and maybe even allow to go from one color scheme to another, from monocromatic to analogous, from complimentary to split-complimentaary, etc.
