@@ -89,3 +89,11 @@ A program that can read the color scheme of a image, in different formats, and a
   - Monochronomatic to analogous (and reverse)
   - Complimentary to Split-complimentary to triad (and reverse)
 
+
+## Painting Analyzer
+- Grayscale conversion, 
+- Detection of Colorschemes
+- Detection of vanishing Points & Lines
+- Detection of digital paint brushes
+- Detection of composition rules
+
